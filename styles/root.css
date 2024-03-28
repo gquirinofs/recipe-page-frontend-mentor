@@ -1,0 +1,33 @@
+/* Typography */
+
+/* YOUNG SERIF */
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+/* OUTFIT */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+:root{
+/* TYPOGRAPHY */
+	--youngSerif: "Young Serif", serif;
+	--outfit: "Outfit", sans-serif;
+
+/* COLORS */
+
+/* Primary */
+	--nutMeg: hsl(14, 45%, 36%);
+	--darkRaspberry: hsl(332, 51%, 32%);
+
+/* Neutral */
+	--white: hsl(0, 0%, 100%);
+	--roseWhite: hsl(330, 100%, 98%);
+	--eggShell: hsl(30, 54%, 90%);
+	--lightGrey: hsl(30, 18%, 87%);
+	--wengeBrown: hsl(30, 10%, 34%);
+	--darkCharcoal: hsl(24, 5%, 18%);
+}
+          
