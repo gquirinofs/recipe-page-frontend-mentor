@@ -1,4 +1,5 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+/* HEADER */
 	#omeletteImg{
 		width: 100vw;
 	}
@@ -34,7 +35,34 @@
 
 	#processList{
 		font-family: var(--outfit);
-			
 	}
 	
+	#preparationTime{
+		width: 100vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	.roseCont{
+		border-radius: 12px;
+		background-color: var(--roseWhite);
+	}
+	
+	#recipePrep{
+		font-family: var(--outfit);
+		color: var(--darkRaspberry);
+	}
+
+	#processList{
+		color: var(--wengeBrown);
+		font-size: 0.87em;
+		width: 50vw;
+	}
+	
+	.boldWords{
+		font-weight: 700;
+	}
+
 }
