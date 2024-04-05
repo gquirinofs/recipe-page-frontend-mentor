@@ -14,7 +14,6 @@
 		width: 85vw;
 		display: flex;
 		flex-direction: column;
-		gap: 7vh;
 		margin-top: 7vh;
 	}
 
@@ -25,6 +24,7 @@
 		line-height: 1em;
 		color: var(--darkCharcoal);
 		text-align: start;
+		margin-bottom: 7vh;
 	}
 
 	#recipeDescription{
@@ -36,33 +36,84 @@
 	#processList{
 		font-family: var(--outfit);
 	}
-	
+
+/* PREPARATION TIME */
+
 	#preparationTime{
 		width: 100vw;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-
+		margin-bottom: 2vh;
 	}
 
 	.roseCont{
 		border-radius: 12px;
 		background-color: var(--roseWhite);
+		gap: 0 !important;
 	}
 	
 	#recipePrep{
 		font-family: var(--outfit);
 		color: var(--darkRaspberry);
+		padding: 5.5vh 0 0 6vw;
 	}
 
 	#processList{
+		padding-left: 14vw;
 		color: var(--wengeBrown);
 		font-size: 0.87em;
 		width: 50vw;
+		padding-bottom: 7vh;
+	}
+
+	#processList > ::marker{
+		color: var(--darkRaspberry);
+		font-size: 0.8em;
+		line-height: 5em;
 	}
 	
 	.boldWords{
 		font-weight: 700;
 	}
+
+/* INGREDIENTS */
+
+	#ingredients{
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+	}
+
+	#ingredTitle {
+		font-family: var(--youngSerif);
+		font-weight: 400;
+		font-size: 1.4em;
+		color: var(--nutMeg);
+	}
+
+	#ingredientsList{
+		padding: 0 0 7vh 7vw;
+	}
+
+	#ingredientsList li{
+		font-family: var(--outfit);
+		font-size: 0.87em;
+		color: var(--wengeBrown);
+
+	}
+
+	#ingredCont{
+		display: flex;
+		flex-direction: column;
+		gap: 0 !important;
+	}
+
+	#ingredientsList > ::marker{
+		font-size: 0.8em;
+		line-height: 5em;
+		color: var(--nutMeg);
+	}
+
 
 }
